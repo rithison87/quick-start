@@ -34,7 +34,7 @@ h3 {
 }
 
 .inner-body {
-  width: 80%;
+  width: 60%;
   margin: 0 auto;
 }
 
@@ -70,7 +70,7 @@ h3 {
 .box {
 	/*width: 80vw;*/
 	align-content: center;
-	height: 80vw;
+	/* height: 80vw; */
 }
 
 .box:nth-child(1) { background: #F7F7F7 }
@@ -121,10 +121,10 @@ h3 {
 	padding-top: 22.5px;
 	padding-bottom: 22.5px;
 	padding-left: 50px;
-	border-top: .5px solid #cecece;
+	/* border-top: .5px solid #cecece;
 	border-bottom: .5px solid #cecece;
 	background: #1691c6;
-	color: white;
+	color: white; */
 }
 
 .section-block {
