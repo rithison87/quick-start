@@ -34,7 +34,7 @@ h3 {
 	font-weight: 300;
 	font-size: 2.5em;
 	/* color: #1691c6; */
-	color: #364B4A;
+	/* color: #364B4A; */
 	/* font-weight: bold; */
 	/* padding-top: 22.5px;
 	padding-bottom: 22.5px; */
@@ -45,7 +45,7 @@ h3 {
 h4 {
 	font-weight: 400;
 	color: #1691c6;
-	font-size: 1.25em;
+	font-size: 1.50em;
 	padding-left: 50px;
 	padding-right: 50px;
 
@@ -63,9 +63,18 @@ hr {
 	background-color: #FFFFFF;
 	color: #FFFFFF;
 	border-top: 1px solid #dedede;
-	border-bottom: 1px solid #FFFFFF;
+	/* border-bottom: 1px solid #FFFFFF; */
 	border-left: 0px;
 	/* border-color: #BCC6CC; */
+}
+
+.top-hr {
+	width: 100vw;
+	margin: 0;
+	padding: 0;
+	border-bottom: 0px;
+	background-color: #ffffff;
+	color: #ffffff;
 }
 
 .learning-guide-header {
@@ -99,6 +108,12 @@ li {
   margin: 0 auto;
 }
 
+/* .outer-body {
+	border: 1px;
+	border-style: solid;
+	padding-top: 100px;
+} */
+
 .navigation {
 	top: 0;
 	left: 0;
@@ -110,6 +125,9 @@ li {
 	box-sizing: border-box;
 	background: #ffffff;
 	text-align: center;
+	/* border-style: none none none solid; */
+	/* border: 2px;
+	border-bottom: 10px; */
 }
 
 .navigation a {
