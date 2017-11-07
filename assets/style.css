@@ -95,7 +95,6 @@ li {
 .navigation {
 	top: 0;
 	left: 0;
-	/*padding: 0 10%;*/
 	width: 100vw;
 	height: 70px;
 	position: fixed;
@@ -174,13 +173,10 @@ li {
 }
 
 .section-block {
-	/*display: block;*/
 	padding-top: 22.5px;
 	padding-bottom: 22.5px;
-	/*padding-left: 50px;*/
 	color: #545454;
 	background: #ffffff;
-	/*height: 90px;*/
 	vertical-align: middle;
 	border-bottom: .5px solid #cecece;
 }
