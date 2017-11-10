@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
 
 * {
-	list-style-type: none;
-	padding: 0;
-	margin: 0;
+	list-style-type: disc;
 }
 
 body {
@@ -12,8 +10,9 @@ body {
 	background: #F7F7F7;
 	padding-top: 70px;
 	font-family: 'Lato',Arial, Helvetica, Sans-serif;
-    overflow-x:hidden;
-    height: 150%;
+	overflow-x:hidden;
+	height: 150%;
+	width: 100vw;
 }
 
 h1 {
@@ -22,26 +21,80 @@ h1 {
 }
 h2 {
 	font-weight: 300;
-	font-size: 2.5em;
+	font-size: 3.5em;
 	margin: 0 auto;
 	vertical-align: middle;
+	padding-top: 45px;
+	padding-bottom: 25px;
 }
 
 h3 {
 	font-weight: 300;
-	font-size: 1.5em;
+	font-size: 2.5em;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+h4 {
+	font-weight: 400;
 	color: #1691c6;
+	font-size: 1.50em;
+	padding-left: 50px;
+	padding-right: 50px;
+
+}
+
+hr {
+	height: 2px;
+	background-color: #FFFFFF;
+	color: #FFFFFF;
+	border-top: 1px solid #dedede;
+	border-left: 0px;
+}
+
+.top-hr {
+	width: 100vw;
+	margin: 0;
+	padding: 0;
+	border-bottom: 0px;
+	background-color: #ffffff;
+	color: #ffffff;
+}
+
+.learning-guide-header {
+	background-image: url("bg.png");
+	color: #FFFFFF;
+	padding-bottom: 45px;
+}
+
+.learning-guide-body {
+	font-size: 1.25em;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.bullets {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+li {
+	margin: 15px;
+	padding-left: 20px;
+}
+
+.nested-list li {
+	list-style-type: circle;
 }
 
 .inner-body {
-  width: 80%;
+  width: 75vw;
   margin: 0 auto;
 }
 
 .navigation {
 	top: 0;
 	left: 0;
-	/*padding: 0 10%;*/
 	width: 100vw;
 	height: 70px;
 	position: fixed;
@@ -64,13 +117,15 @@ h3 {
 .navigation a.active { 
 	color: #1691c6;
 	font-weight: bold;
-    /*border-bottom: 2px solid #1691c6;*/
+	border-style: none none solid none;
+}
+
+.bullets a {
+	color: #1691c6;
 }
 
 .box {
-	/*width: 80vw;*/
 	align-content: center;
-	height: 80vw;
 }
 
 .box:nth-child(1) { background: #F7F7F7 }
@@ -86,8 +141,8 @@ h3 {
 
 .flex-container-row  {
 	display: flex;
-  	flex-direction: row;
-  	justify-content: center;
+	flex-direction: row;
+	justify-content: center;
 }
 
 .flex-container-column {
@@ -117,24 +172,11 @@ h3 {
 	font-weight: 300
 }
 
-.section-header {
-	padding-top: 22.5px;
-	padding-bottom: 22.5px;
-	padding-left: 50px;
-	border-top: .5px solid #cecece;
-	border-bottom: .5px solid #cecece;
-	background: #1691c6;
-	color: white;
-}
-
 .section-block {
-	/*display: block;*/
 	padding-top: 22.5px;
 	padding-bottom: 22.5px;
-	/*padding-left: 50px;*/
 	color: #545454;
 	background: #ffffff;
-	/*height: 90px;*/
 	vertical-align: middle;
 	border-bottom: .5px solid #cecece;
 }
